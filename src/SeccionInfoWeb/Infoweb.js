@@ -1,9 +1,9 @@
 import React from 'react';
 import '../SeccionInfoWeb/EstilosInfoWeb.scss';
 
-export default function Infoweb({titulo, descripcion, lista, imagen, alt}){
+export default function Infoweb({titulo, descripcion, lista, imagen, alt, clase}){
     return(
-        <section className='infoWeb'>
+        <section className={`infoWeb ${clase}`}>
             <article className='webinfo'>
                 <h3 className='webinfo__titulo' data-aos="fade-right" data-aos-duration="800">{titulo}</h3>
                 <p className='webinfo__parrafo'>{descripcion}</p>

@@ -9,7 +9,7 @@ export default function Servicios(){
                 <section className='servicioInfo'>
                     <h2 className='serviciosInfo__titulo' data-aos-duration="800" data-aos="fade-right">Desarrollo Web</h2>
                     <p className='serviciosInfo__parrafo' data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
-                    ¡Si puedes pensarlo, puedes crearlo! Desarrollo con entusiasmo y alegría páginas de todo tipo, con los diseños de tus sueños.
+                    ¡Si puedes pensarlo, podemos crearlo! Desarrollo con entusiasmo y profesionalidad paginas orientadas al cliente con el fin de impulsar sus emprendimientos.
                     </p>
                 </section>
             </article>
@@ -19,7 +19,7 @@ export default function Servicios(){
                 <section className='serviciosInfo'>
                     <h2 className='serviciosInfo__titulo' data-aos-duration="800" data-aos="fade-right">Responsive Desing</h2>
                     <p className='serviciosInfo__parrafo' data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
-                    Todos los sitios webs, contaran con este 'Diseño Responsive', el cual consta de hacer que cada sitio web, se adapte a resoluciones desde un Smartphone hasta una computadora de escritorio
+                    Todos los sitios webs, contaran con este 'Diseño Responsive', el cual consta de hacer que cada página web, se adapte a resoluciones desde un Smartphone hasta una computadora de escritorio.
                     </p>
                 </section>
             </article>
@@ -29,7 +29,7 @@ export default function Servicios(){
                 <section className='serviciosInfo'>
                     <h2 className='serviciosInfo__titulo' data-aos-duration="800" data-aos="fade-right">Optimizacion Web</h2>
                     <p className='serviciosInfo__parrafo' data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
-                    Lo más importante para un sitio web, es contar con un gran tráfico de personas que estén interesadas en tu página. Por eso aplicamos las mejores y más limpias técnicas para que tu sitio sea increíble.
+                    La optimización para los motores de búsqueda (SEO) es lo más importante para un sitio web, contar con un gran tráfico de personas que estén interesadas en tu negocio.
                     </p>
                 </section>
             </article>
@@ -39,7 +39,7 @@ export default function Servicios(){
                 <section className='serviciosInfo'>
                     <h2 className='serviciosInfo__titulo' data-aos-duration="800" data-aos="fade-right">Mantenimiento Web</h2>
                     <p className='serviciosInfo__parrafo' data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
-                    Cada sitio web, necesita de un mantenimiento y cuidado semanal o mensual, ya sea para actualizaciones mínimas o grandes. Por eso contamos con atención al cliente las 24 horas del día.
+                    El mantenimiento web de cada sitio incluye un cuidado semanal o mensual, ya sea para actualizaciones mínimas o grandes, corrección de errores, optimizaciones del contenido y mejoras en la seguridad de la página.
                     </p>
                 </section>
             </article>

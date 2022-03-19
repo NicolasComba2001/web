@@ -10,7 +10,7 @@ export default function SeccionProyecto(){
                 <article className='proyectotitulos'>
                     <div className='proyectotexto'>
                         <h2 className='proyectotexto__titulo'>CREA TU SITIO AL ESTILO <span className='textdegrade' data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">WEBS ARG</span></h2>
-                        <p className='proyectotexto__descripcion'>Realizamos tu sitio web ideal con increibles estilos, animaciones y funcionalidades para darle al cliente la mejor experiencia de navegacion.</p>
+                        <p className='proyectotexto__descripcion'>Dinos tu idea y te comentamos lo que necesitas; Portfolio, sitio web corporativo, blogs, paginas de publicidad y mas. Todo es posible de crear.</p>
                     </div>
                     <div className='proyectobotones'>
                         <a className='proyectobotones__btn'  href='https://nicolascomba2001.github.io/Portfolio/' target={"_blank"} rel="noreferrer" data-aos="fade-right" data-aos-duration="800">PORTFOLIO</a>
@@ -26,22 +26,22 @@ export default function SeccionProyecto(){
                     <Cardproyecto
                         titulo="Takkar - Indumentaria"
                         img={"./ProyectosPersonales/TakkarIndumentaria.png"}
-                        desc={"Takkar - Indumentaria fue creada con el fin de presentar una nueva coleccion de ropa OTONO-INVIERNO. Mostrando modelos unicos y outfits irresistebles."}
-                        alt={"Takkar - Indumentaria fue creada con el fin de presentar una nueva coleccion de ropa OTONO-INVIERNO. Mostrando modelos unicos y outfits irresistebles."}
+                        desc={"Takkar - Indumentaria Argentina, fue creada con el fin de presentar una nueva coleccion de ropa OTONO-INVIERNO. Mostrando modelos unicos y outfits irresistebles."}
+                        alt={"Takkar - Indumentaria Argentina, fue creada con el fin de presentar una nueva coleccion de ropa OTONO-INVIERNO. Mostrando modelos unicos y outfits irresistebles."}
                         web={"https://nicolascomba2001.github.io/Takkar2022/"}
                     ></Cardproyecto>
                     <Cardproyecto
                         titulo="Mater - Muebleria"
                         img={"./ProyectosPersonales/MaterMuebles.png"}
-                        desc={"Mater - Muebleria, brinda la mejor madera con unos diseños increibles para que puedas decorar tu hogar y hacerlo de la manera mas economica."}
-                        alt={"Mater - Muebleria, brinda la mejor madera con unos diseños increibles para que puedas decorar tu hogar y hacerlo de la manera mas economica."}
+                        desc={"Mater - Muebleria de cordoba, brinda la mejor madera con unos diseños increibles para que puedas decorar tu hogar y hacerlo de la manera mas economica."}
+                        alt={"Mater - Muebleria de cordoba, brinda la mejor madera con unos diseños increibles para que puedas decorar tu hogar y hacerlo de la manera mas economica."}
                         web={"https://nicolascomba2001.github.io/MaterMuebles/"}
                     ></Cardproyecto>
                     <Cardproyecto
                         titulo="Sport Fitness Club"
                         img={"./ProyectosPersonales/SportFinesClub.png"}
-                        desc={"Sport Fitness Club, Asesoria online, lista de dietas recetadas por profesionales, instructores unicos y el mejor acompañamiento para cumplir tu objetivo."}
-                        alt={"Sport Fitness Club, Asesoria online, lista de dietas recetadas por profesionales, instructores unicos y el mejor acompañamiento para cumplir tu objetivo."}
+                        desc={"Sport Fitness Club Gimnasio de cordoba. Asesoria online, lista de dietas recetadas por profesionales, instructores unicos y el mejor acompañamiento para cumplir tu objetivo."}
+                        alt={"Sport Fitness Club Gimnasio de cordoba. Asesoria online, lista de dietas recetadas por profesionales, instructores unicos y el mejor acompañamiento para cumplir tu objetivo."}
                         web={"https://nicolascomba2001.github.io/Gimnasio/"}
                     ></Cardproyecto>
                     <Cardproyecto
@@ -75,9 +75,9 @@ export default function SeccionProyecto(){
                 <h3 className='iniciarproyectoinfo__titulo' data-aos="fade-right" data-aos-duration="800">IMPULSA TU <span className='textdegrade2'>IDEA</span></h3>
                 <p className='iniciarproyectoinfo__desc' data-aos="fade-left" data-aos-duration="800">Tenemos el proyecto ideal para usted.</p>
             </article>
-            <div className='proyectoboton'>
-                <a href='mailto:disenioswebs@outlook.es?subject=Quisiera una pagina web.&body=Me ha gustado mucho tu pagina web y me gustaria poder trabajar contigo.' className='proyectoboton__btn'>EMPEZAR</a>
-            </div>
+            <a href='mailto:disenioswebs@outlook.es?subject=Quisiera una pagina web.&body=Me ha gustado mucho tu pagina web y me gustaria poder trabajar contigo.' className='proyectoboton'>
+                <span className='proyectoboton__btn'>EMPEZAR</span>
+            </a>
             </section>
         </section>
     );

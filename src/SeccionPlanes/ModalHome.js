@@ -7,6 +7,8 @@ import MensajeForm from './helpers/MensajeForm';
 const initialForm={
     nombrecompleto:"",
     correo:"",
+    plan: "Basico",
+    tipo_de_pagina:"Landing"
 }
 const validations =(form)=>{
     let errores = {};
@@ -48,7 +50,7 @@ export default function ModalHome({estado, funcion}){
                     </div>
                     <div className='grupoform'>
                         <label className='grupoform__titulo' htmlFor='correo' >Correo Electronico:</label>
-                        <input maxLength={"250"} required className='grupoform__input elementoForm' type="email" id='correo' name='correo' onBlur={handleBlur} onChange={handleChange} value={form.correo}  />
+                        <input maxLength={"255"} required className='grupoform__input elementoForm' type="email" id='correo' name='correo' onBlur={handleBlur} onChange={handleChange} value={form.correo}  />
                         {error.email && <p className='errorMensaje'>{error.email}</p>}
                     </div>
                     <div className='grupoform'>
@@ -60,7 +62,7 @@ export default function ModalHome({estado, funcion}){
                     </div>
                     <div className='grupoform'>
                         <label className='grupoform__titulo' htmlFor='tipopage'>Tipo de pagina</label>
-                        <select id='tipopage' onChange={handlePlan} name="tipo de pagina">
+                        <select id='tipopage' onChange={handlePlan} name="tipo_de_pagina">
                             <option value="landingpage">Landingpage</option>
                             <option value="blogs">Blogs</option>
                             <option value="corporativo" defaultValue={'corporativo'}>Coorporativo</option>

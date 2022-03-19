@@ -15,7 +15,6 @@
     "react-scripts": "5.0.0",
     "react-scroll": "^1.8.6",
     "sass": "^1.49.9",
-    "typed.js": "^2.0.12",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
