@@ -1,0 +1,166 @@
+.contenedorMenu{
+    background-color: rgba(0, 0, 0, 0.897);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    padding: 5px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+}
+.imagenHome{
+    z-index: 200;
+    width: 60px;
+    height: 60px;
+        &__logo{width: 100%; height: 100%; object-fit: cover;}
+}
+
+
+//estilos del icono del menu
+.iconoMenu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    z-index: 200;
+}
+
+.iconoMenu__item{
+    width: 50px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+
+.iconoMenu__item::before,
+.iconoMenu__item::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;transition: all .5s ease-in-out;
+}
+.iconoMenu__item::before{
+    transform: translateY(-16px);
+}
+.iconoMenu__item::after{
+    transform: translateY(16px);
+}
+
+.iconoMenu.open .iconoMenu__item{
+    transform: translateX(-50px);
+    background: transparent;
+}
+.iconoMenu.open .iconoMenu__item::before{
+    transform: rotate(45deg) translate(35px, -35px);
+}.iconoMenu.open .iconoMenu__item::after{
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+//fin estilos del icono del menu
+
+.contenedorAnclas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.918);
+    z-index: 100;
+    transform: translateX(200%);
+    -webkit-transform: translateX(200%);
+    -moz-transform: translateX(200%);
+    -ms-transform: translateX(200%);
+    -o-transform: translateX(200%);
+    transition: transform .6s ease-out;
+    -webkit-transition: transform .6s ease-out;
+    -moz-transition: transform .6s ease-out;
+    -ms-transition: transform .6s ease-out;
+    -o-transition: transform .6s ease-out;
+    
+}
+.menuItems{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.menuAnclas{
+    list-style: none;
+    margin: 25px 0;
+    text-align: center;
+    
+        &__anclas{
+            color: white;
+            font-size: 3em;
+            text-decoration: none;
+            position: relative;
+            display: block;
+            transition: .5s;
+            -webkit-transition: .5s;
+            -moz-transition: .5s;
+            -ms-transition: .5s;
+            -o-transition: .5s;
+            cursor: pointer;
+    }
+}
+.menuAnclas__anclas:hover{
+    color: rgba(255,255,255,.1);
+}
+.menuAnclas__anclas::before{
+    content: attr(data-text);
+    position: absolute;
+    font-size: 0.35em;
+    color: #ff4800;
+    text-shadow: 0 0 30px #f82003,
+    0 0 60px #fd3d03,
+    0 0 90px #ff6803;
+    font-weight: 500;
+    opacity: 0;
+    transition: 0.5s;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.menuAnclas__anclas:hover::before{
+    opacity: 1;
+    letter-spacing: 6px;
+}
+.open{
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transition: transform .6s ease-out;
+    -webkit-transition: transform .6s ease-out;
+    -moz-transition: transform .6s ease-out;
+    -ms-transition: transform .6s ease-out;
+    -o-transition: transform .6s ease-out;
+}
+.menuOpen{
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transition: transform .6s ease-out;
+    -webkit-transition: transform .6s ease-out;
+    -moz-transition: transform .6s ease-out;
+    -ms-transition: transform .6s ease-out;
+    -o-transition: transform .6s ease-out;
+}

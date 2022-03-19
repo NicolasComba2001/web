@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css';
+import { Routes, Route } from "react-router-dom";
+import SeccionHome from "./SeccionHome";
+import SeccionProyecto from './SeccionProyecto';
+import PiePagina from './PiePagina/PiePagina';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
+AOS.init();
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Routes>
+      {/*Pagina principal*/}
+      <Route path="/" element={<SeccionHome></SeccionHome>}></Route>
+      <Route path='Proyectos' element={<SeccionProyecto></SeccionProyecto>}></Route>
+    </Routes>
+    <PiePagina></PiePagina>
+    </>
   );
 }
 

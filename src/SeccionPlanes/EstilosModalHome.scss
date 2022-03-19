@@ -1,0 +1,96 @@
+.modal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.747);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+}
+.modalform{
+    height: 500px;
+    background-color: rgb(74, 74, 75);
+    width: 95%;
+    padding: 10px;
+    position: relative;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    color: aliceblue;
+}
+.grupoform__cerrar{
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: none;
+    background-color: orangered;
+    cursor: pointer;
+    color: white;
+}
+.grupoform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+        &__input{
+            margin: 18px 0;
+            width: 80%;
+            height: 35px;
+            border: 2px solid transparent;
+            outline: none;
+            &:hover, &:focus{
+                border: 2px solid orangered;
+            }
+        }
+        &__titulo{
+            align-items: flex-start;
+            width: 80%;
+        }
+   
+}
+#tipopage,#plan{
+    margin: 18px 0;
+    width: 80%;
+    height: 35px;
+    border: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.cerrarForm{
+    width: 90%;
+    height: 40px;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: auto;
+    outline: none;
+    border: none;
+    font-size: 1.5em;
+}
+.errorMensaje{
+    display: block;
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: rgb(255, 72, 0);
+    text-align: center;
+}
