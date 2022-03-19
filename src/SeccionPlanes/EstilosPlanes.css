@@ -1,0 +1,192 @@
+.planes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.planesInfo {
+  text-align: center;
+}
+
+.planesInfo__titulo {
+  font-size: 2em;
+  font-weight: 750;
+  line-height: 1.5;
+  background-color: rgba(241, 109, 60, 0.692);
+  padding: 10px;
+  color: rgba(46, 45, 45, 0.918);
+  display: block;
+  margin-bottom: 10px;
+}
+
+.planesInfo__sub {
+  font-size: .9em;
+  color: rgba(146, 145, 145, 0.911);
+}
+
+.cardplan {
+  width: 90%;
+}
+
+.contenedorplan {
+  width: 280px;
+  height: 460px;
+  padding: 5px;
+  background-color: rgba(22, 22, 22, 0.884);
+  margin: auto;
+  padding: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.342);
+          box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.342);
+  color: rgba(184, 180, 180, 0.918);
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.contenedorplan:hover {
+  -webkit-box-shadow: 0 0 3px 5px rgba(0, 0, 0, 0.342);
+          box-shadow: 0 0 3px 5px rgba(0, 0, 0, 0.342);
+}
+
+.contenedorplanInfo__titulo {
+  font-size: 1em;
+  line-height: 3;
+  color: rgba(255, 255, 255, 0.911);
+}
+
+.contenedorplanInfo__precio {
+  font-size: 1.5em;
+  color: rgba(255, 255, 255, 0.911);
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background-color: orangered;
+  border-radius: 10px;
+  padding: 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.contenedorplanInfo__desc {
+  font-size: 1.1em;
+  line-height: 1.3;
+}
+
+.contenedorplanboton {
+  width: 90%;
+  color: rgba(255, 255, 255, 0.911);
+}
+
+.contenedorplanboton__btn {
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 40px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-size: 1.1em;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform .5s ease-out;
+  transition: -webkit-transform .5s ease-out;
+  transition: transform .5s ease-out;
+  transition: transform .5s ease-out, -webkit-transform .5s ease-out;
+  -webkit-transition: transform .5s ease-out;
+  -moz-transition: transform .5s ease-out;
+  -ms-transition: transform .5s ease-out;
+  -o-transition: transform .5s ease-out;
+}
+
+.contenedorplanboton__btn:focus, .contenedorplanboton__btn:hover {
+  -webkit-box-shadow: 0 0.5em 0.3em -0.2em rgba(255, 68, 0, 0.918);
+          box-shadow: 0 0.5em 0.3em -0.2em rgba(255, 68, 0, 0.918);
+  transform: translateY(-0.3em);
+  -webkit-transform: translateY(-0.4em);
+  -moz-transform: translateY(-0.3em);
+  -ms-transform: translateY(-0.3em);
+  -o-transform: translateY(-0.3em);
+  -webkit-transition: -webkit-transform .5s ease-out;
+  transition: -webkit-transform .5s ease-out;
+  transition: transform .5s ease-out;
+  transition: transform .5s ease-out, -webkit-transform .5s ease-out;
+  -webkit-transition: transform .5s ease-out;
+  -moz-transition: transform .5s ease-out;
+  -ms-transition: transform .5s ease-out;
+  -o-transition: transform .5s ease-out;
+}
+
+.contenedorplanlista {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  width: 90%;
+}
+
+.listaplan__items {
+  margin: 15px 0;
+  list-style: none;
+}
+
+.incluyeplan {
+  text-decoration: underline;
+  line-height: 2;
+  color: rgba(255, 255, 255, 0.849);
+  font-weight: 700;
+}
+
+.contenedorplan.switch {
+  background-color: rgba(255, 255, 255, 0.849);
+  color: black;
+}
+
+.contenedorplan.switch .contenedorplanInfo__titulo {
+  color: black;
+}
+
+.contenedorplan.switch .contenedorplanInfo__desc {
+  color: rgba(0, 0, 0, 0.842);
+}
+
+.contenedorplan.switch .listaplan__items {
+  color: rgba(0, 0, 0, 0.842);
+}
+
+.contenedorplan.switch .contenedorplanboton__btn {
+  border: 2px solid black;
+}
+
+.contenedorplan.switch .incluyeplan {
+  color: black;
+}
+/*# sourceMappingURL=EstilosPlanes.css.map */

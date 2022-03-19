@@ -14,8 +14,9 @@ function App() {
     <>
     <Routes>
       {/*Pagina principal*/}
-      <Route path="/" element={<SeccionHome></SeccionHome>}></Route>
+      <Route path="https://nicolascomba2001.github.io/web/" element={<SeccionHome></SeccionHome>}>
       <Route path='Proyectos' element={<SeccionProyecto></SeccionProyecto>}></Route>
+      </Route>
     </Routes>
     <PiePagina></PiePagina>
     </>

@@ -1,0 +1,143 @@
+.secFooter {
+  width: 100%;
+  padding: 15px;
+  border-top: 5px solid orangered;
+  margin-top: 20px;
+  background-color: rgba(9, 13, 16, 0.88);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footerlogoinfo {
+  text-align: center;
+}
+
+.logonombre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footerimg {
+  width: 65px;
+  height: 65px;
+  margin: 10px;
+}
+
+.footerimg__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footerempresa {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.842);
+}
+
+.footereslogan {
+  color: rgba(255, 255, 255, 0.842);
+  font-size: .9em;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.columnasfooter {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 0 0 0 20px;
+}
+
+.infofooter__titulo {
+  color: rgba(255, 255, 255, 0.842);
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.infofooterlist {
+  list-style: none;
+}
+
+.infofooterlistanclas {
+  margin: 12px 0;
+}
+
+.infofooterlistanclas__ancla {
+  color: rgba(255, 255, 255, 0.842);
+  font-size: .8em;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.copy {
+  position: relative;
+  font-size: 1em;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.842);
+  margin-top: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.copy::after {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  margin: auto;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.651);
+}
+
+.infofooterlistanclas__ancla:hover {
+  text-decoration: underline;
+  color: orangered;
+}
+
+.redescont {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px 0;
+}
+
+.redesitems {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.redesitems__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=EstilosPiePagina.css.map */
