@@ -14,7 +14,7 @@ function App() {
     <>
     <Routes>
       {/*Pagina principal*/}
-      <Route path="https://nicolascomba2001.github.io/web/" element={<SeccionHome></SeccionHome>}>
+      <Route path="https://NicolasComba2001.github.io/web" element={<SeccionHome></SeccionHome>}>
       </Route>
       <Route path='https://nicolascomba2001.github.io/web/Proyectos' element={<SeccionProyecto></SeccionProyecto>}></Route>
     </Routes>
