@@ -24,7 +24,7 @@ export default function PlanesDesarrollo(){
                 </ul>
             }></Planes>
             <figure className='eligetuplan'>
-                <img className='eligetuplan__img' src="./planimg/eligetumejorplan.gif" alt="Elige el mejor plan para crear tu pagina web para tu negocio o emprendimiento." />
+                <img loading='lazy' className='eligetuplan__img' src="./planimg/eligetumejorplan.gif" alt="Elige el mejor plan para crear tu pagina web para tu negocio o emprendimiento." />
             </figure>
              <Planes
             clase={"PREMIUM"}
