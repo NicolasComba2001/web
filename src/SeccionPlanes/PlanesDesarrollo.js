@@ -23,6 +23,9 @@ export default function PlanesDesarrollo(){
                     <li className='listaplan__items'>No incluye Hosting</li>
                 </ul>
             }></Planes>
+            <figure className='eligetuplan'>
+                <img className='eligetuplan__img' src="./planimg/eligetumejorplan.gif" alt="Elige el mejor plan para crear tu pagina web para tu negocio o emprendimiento." />
+            </figure>
              <Planes
             clase={"PREMIUM"}
             descripcion={"¡Ten grandes ideas! Impúlsate mas allá de tu sitio convencional, crea más sitios web para crecer en tu negocio."}

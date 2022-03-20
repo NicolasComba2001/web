@@ -98,6 +98,16 @@
 }
 
 @media screen and (min-width: 1280px){
+    .eligetuplan{
+        display: block;
+        width: 30%;
+        height: 200px;
+            &__img{
+                width: 100%;
+                object-fit: cover;
+                height: 100%;
+            }
+    }
     .cartadescripcion__desc{
         font-size: 1.2em;
     }

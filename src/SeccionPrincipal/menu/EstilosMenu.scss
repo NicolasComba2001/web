@@ -105,7 +105,7 @@
     
         &__anclas{
             color: white;
-            font-size: 3em;
+            font-size: 3.2em;
             text-decoration: none;
             position: relative;
             display: block;
@@ -114,6 +114,7 @@
             -moz-transition: .5s;
             -ms-transition: .5s;
             -o-transition: .5s;
+            font-weight: 800;
             cursor: pointer;
     }
 }

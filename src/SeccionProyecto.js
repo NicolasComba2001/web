@@ -25,45 +25,45 @@ export default function SeccionProyecto({children}){
                     <section className='proyectos'>
                     <Cardproyecto
                         titulo="Takkar - Indumentaria"
-                        img={"./ProyectosPersonales/TakkarIndumentaria.png"}
+                        img={"./ProyectosPersonales/TakkarIndumentaria.jpg"}
                         desc={"Takkar - Indumentaria Argentina, fue creada con el fin de presentar una nueva coleccion de ropa OTONO-INVIERNO. Mostrando modelos unicos y outfits irresistebles."}
                         alt={"Takkar - Indumentaria Argentina, fue creada con el fin de presentar una nueva coleccion de ropa OTONO-INVIERNO. Mostrando modelos unicos y outfits irresistebles."}
                         web={"https://nicolascomba2001.github.io/Takkar2022/"}
                     ></Cardproyecto>
                     <Cardproyecto
                         titulo="Mater - Muebleria"
-                        img={"./ProyectosPersonales/MaterMuebles.png"}
+                        img={"./ProyectosPersonales/MaterMuebles.jpg"}
                         desc={"Mater - Muebleria de cordoba, brinda la mejor madera con unos diseños increibles para que puedas decorar tu hogar y hacerlo de la manera mas economica."}
                         alt={"Mater - Muebleria de cordoba, brinda la mejor madera con unos diseños increibles para que puedas decorar tu hogar y hacerlo de la manera mas economica."}
                         web={"https://nicolascomba2001.github.io/MaterMuebles/"}
                     ></Cardproyecto>
                     <Cardproyecto
                         titulo="Sport Fitness Club"
-                        img={"./ProyectosPersonales/SportFinesClub.png"}
+                        img={"./ProyectosPersonales/SportFinesClub.jpg"}
                         desc={"Sport Fitness Club Gimnasio de cordoba. Asesoria online, lista de dietas recetadas por profesionales, instructores unicos y el mejor acompañamiento para cumplir tu objetivo."}
                         alt={"Sport Fitness Club Gimnasio de cordoba. Asesoria online, lista de dietas recetadas por profesionales, instructores unicos y el mejor acompañamiento para cumplir tu objetivo."}
                         web={"https://nicolascomba2001.github.io/Gimnasio/"}
                     ></Cardproyecto>
                     <Cardproyecto
                         titulo="UTN - CLONE"
-                        img={"./ProyectosPersonales/UTN-pagina.png"}
+                        img={"./ProyectosPersonales/UTN-pagina.jpg"}
                         desc={"UTN - CLONE, se clono la pagina de la universidad tecnologica nacional para otorgarle mejor funcionalidad y dinamismo."}
                         alt={"UTN - CLONE, se clono la pagina de la universidad tecnologica nacional para otorgarle mejor funcionalidad y dinamismo."}
-                        web={"/Proyectos"}
+                        web={"/*"}
                     ></Cardproyecto>
                     <Cardproyecto
                         titulo="Publicidad emprendimientos"
-                        img={"./ProyectosPersonales/publicidad-emprendimientos.png"}
+                        img={"./ProyectosPersonales/publicidad-emprendimientos.jpg"}
                         desc={"Pagina web con el fin de aumentar las visitas y las ventas de micro-emprendimientos en la epoca COVID-19 año 2020."}
                         alt={"Pagina web con el fin de aumentar las visitas y las ventas de micro-emprendimientos en la epoca COVID-19 año 2020."}
-                        web={"/Proyectos"}
+                        web={"/*"}
                     ></Cardproyecto>
                     <Cardproyecto
                         titulo="Venta tickets"
-                        img={"./ProyectosPersonales/entradas-cena-baile.png"}
+                        img={"./ProyectosPersonales/entradas-cena-baile.jpg"}
                         desc={"Estacion Luxardo cuenta con uno de los mejores eventos en el año para nuestra comunidad bailarina. Compra tu ticket y reserva tu asiento."}
                         alt={"Estacion Luxardo cuenta con uno de los mejores eventos en el año para nuestra comunidad bailarina. Compra tu ticket y reserva tu asiento."}
-                        web={"/Proyectos"}
+                        web={"/*"}
                     ></Cardproyecto>
                     </section>
                   

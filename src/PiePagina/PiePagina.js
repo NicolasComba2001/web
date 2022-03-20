@@ -18,9 +18,9 @@ export default function PiePagina(){
                     <section className='infofooter'>
                         <p className='infofooter__titulo'>COMPANIA</p>
                         <ul className='infofooterlist'>
-                            <li className='infofooterlistanclas'><a className='infofooterlistanclas__ancla' href="https://www.instagram.com/webs_arg/" target={"_blank"} rel="noreferrer">Sobre Webs Arg</a></li>
-                            <li className='infofooterlistanclas'><a className='infofooterlistanclas__ancla' href="www.google.com">¿Qué sitio web me conviene?</a></li>
-                            <li className='infofooterlistanclas'><a className='infofooterlistanclas__ancla' href="www.google.com">¿Por qué Web Arg?</a></li>
+                            <li className='infofooterlistanclas'><a className='infofooterlistanclas__ancla' rel="noreferrer" href="https://www.instagram.com/webs_arg/" target={"_blank"} >Sobre Webs Arg</a></li>
+                            <li className='infofooterlistanclas'><a className='infofooterlistanclas__ancla' rel='nofollow' href="mailto:disenioswebs@outlook.es?subject=Hola! Me puedes ayudar con una duda?.&body=Antes de iniciar cualquier tipo de negocio contigo, me gustaria pedirte informacion acerca de que sitio me convendria segun mi idea de negocio.">¿Qué sitio web me conviene?</a></li>
+                            <li className='infofooterlistanclas'><a className='infofooterlistanclas__ancla'  target={"_blank"} rel="noreferrer" href="https://www.instagram.com/webs_arg/">¿Por qué Web Arg?</a></li>
                         </ul>
                     </section>
                     <section className='infofooter'>

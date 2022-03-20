@@ -3,7 +3,7 @@
     height: 500px;
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
         &__img{
@@ -42,10 +42,10 @@
             overflow: hidden;
             position: relative;
             transition: .5s ease-out;
-            -webkit-transition: .5s ease-out;
-            -moz-transition: .5s ease-out;
-            -ms-transition: .5s ease-out;
-            -o-transition: .5s ease-out;
+            -webkit-transition: transform .6s ease-out;
+            -moz-transition: transform .6s ease-out;
+            -ms-transition: transform .6s ease-out;
+            -o-transition: transform .6s ease-out;
             &:hover{
                 box-shadow: 0 0 6px 3px white;
                 transition: transform .6s ease-out;
