@@ -82,6 +82,12 @@
 }
 
 @media screen and (min-width: 1024px){
+    .errorpage__img{
+        width: 30%;
+    }
+    .errorpage{
+        flex-direction: row;
+    }
     .mensajeError{font-size: 3.5em;}
     .errorpageinfo__titulo{font-size: 2em;}
     .menuAnclas__anclas{font-size: 3em;}
@@ -103,9 +109,13 @@
     }
     .contenedorIconoMenu {width: 50%;}
     .iconoMenu{display: none;}
-    .menuAnclas__anclas{font-size: 1.4em;}
+    .menuAnclas__anclas{font-size: 1.4em;
+        border: 2px solid transparent;
+    &:hover{
+        border: 2px solid orangered;
+    }}
     .menuAnclas__anclas:before{
-        font-size: .60em;
+        font-size: .9em;
     }
     .contenedorAnclas, .menuItems{
         width: 100%;
@@ -124,8 +134,18 @@
     .eligetuplan{
         display: block;
         width: 100%;
-        height: 200px;
-            &__img{
+        height: 100%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        &__img{
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
                 height: 100%;
                 object-fit: cover;
                 width: 100%;
@@ -137,7 +157,6 @@
     .cartadescripcion__titulo{
         font-size: 1.5em;
     }
-    .proyectoimagen__img{object-fit: contain;}
     .proyectos{grid-template-columns: repeat(3,1fr);}
     .proyectotexto__titulo {
         font-size: 5em;

@@ -62,9 +62,24 @@
 }
 
 .proyectoimagen{
-    width: 100%;
+    width: 50%;
     height: 400px;
-        &__img{ width: 100%; height: 100%; object-fit: cover; border-radius: 15px ; -webkit-border-radius: 15px ; -moz-border-radius: 15px ; -ms-border-radius: 15px ; -o-border-radius: 15px ; }
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+    &__img{
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         border-radius: 50% ;
+         -webkit-border-radius: 50% ;
+         -moz-border-radius: 50% ;
+         -ms-border-radius: 50% ;
+         -o-border-radius: 50% ;
+    }
 }
 .textdegrade{
     background: #74ebd5;  /* fallback for old browsers */
