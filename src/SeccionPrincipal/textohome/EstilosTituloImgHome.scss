@@ -63,7 +63,7 @@ background-clip: text;
             text-align: center;
             border: none;
             outline: none;
-            margin: 60px 0;
+            margin: 60px auto;
             border-radius: 10px;
             -webkit-border-radius: 10px;
             -moz-border-radius: 10px;
@@ -75,6 +75,7 @@ background-clip: text;
             -webkit-animation: pulse 1.5s linear infinite;
             cursor: pointer;
             position: relative;
+            display: block;
             &::before{
                 content: attr(data-content);
                 position: absolute;

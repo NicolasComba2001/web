@@ -6,7 +6,8 @@ import Infoweb from './SeccionInfoWeb/Infoweb';
 import PlanesDesarrollo from './SeccionPlanes/PlanesDesarrollo';
 
 
-export default function SeccionHome(){
+
+export default function SeccionHome({children}){
     return(
         <section style={{overflow:"hidden"}}>
             {/* MENU */}
@@ -45,8 +46,7 @@ export default function SeccionHome(){
             ></Infoweb>
             {/* PLANES DE DESARROLLO */}
             <PlanesDesarrollo></PlanesDesarrollo>
-
-
+        {children}
         </section>
     );
 }

@@ -5,7 +5,7 @@ export default function Servicios(){
     return(
         <section className='Servicios'>
             <article className='contenedorServicio'>
-                <figure className='serviciosImagen' data-aos-duration="800" data-aos="fade-right" ><img className='serviciosImagen__img' src="./IconosServicios/DesarrolloWeb.svg" alt="Servicio brindado: Desarrollo Web" /></figure>
+                <figure className='serviciosImagen' data-aos-duration="800" data-aos="fade-right" ><img loading='lazy' className='serviciosImagen__img' src="./IconosServicios/DesarrolloWeb.svg" alt="Servicio brindado: Desarrollo Web" /></figure>
                 <section className='servicioInfo'>
                     <h2 className='serviciosInfo__titulo' data-aos-duration="800" data-aos="fade-right">Desarrollo Web</h2>
                     <p className='serviciosInfo__parrafo' data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
@@ -15,7 +15,7 @@ export default function Servicios(){
             </article>
 
             <article className='contenedorServicio'>
-                <figure className='serviciosImagen'  data-aos-duration="800" data-aos="fade-right"><img className='serviciosImagen__img' src="./IconosServicios/ResponsiveDesing.svg" alt="Servicio brindado: Desarrollo Web Responsive Desing" /></figure>
+                <figure className='serviciosImagen'  data-aos-duration="800" data-aos="fade-right"><img loading='lazy' className='serviciosImagen__img' src="./IconosServicios/ResponsiveDesing.svg" alt="Servicio brindado: Desarrollo Web Responsive Desing" /></figure>
                 <section className='serviciosInfo'>
                     <h2 className='serviciosInfo__titulo' data-aos-duration="800" data-aos="fade-right">Responsive Desing</h2>
                     <p className='serviciosInfo__parrafo' data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
@@ -25,7 +25,7 @@ export default function Servicios(){
             </article>
 
             <article className='contenedorServicio'>
-                <figure className='serviciosImagen' data-aos-duration="800" data-aos="fade-right" ><img className='serviciosImagen__img' src="./IconosServicios/Seo.svg" alt="Servicio brindado: Optimizacion de motores de busqueda" /></figure>
+                <figure className='serviciosImagen' data-aos-duration="800" data-aos="fade-right" ><img loading='lazy' className='serviciosImagen__img' src="./IconosServicios/Seo.svg" alt="Servicio brindado: Optimizacion de motores de busqueda" /></figure>
                 <section className='serviciosInfo'>
                     <h2 className='serviciosInfo__titulo' data-aos-duration="800" data-aos="fade-right">Optimizacion Web</h2>
                     <p className='serviciosInfo__parrafo' data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
@@ -35,7 +35,7 @@ export default function Servicios(){
             </article>
 
             <article className='contenedorServicio'>
-                <figure className='serviciosImagen' data-aos-duration="800" data-aos="fade-right" ><img className='serviciosImagen__img' src="./IconosServicios/MantenimientoWeb.svg" alt="Servicio brindado: Mantenimiento web, support hosting" /></figure>
+                <figure className='serviciosImagen' data-aos-duration="800" data-aos="fade-right" ><img loading='lazy' className='serviciosImagen__img' src="./IconosServicios/MantenimientoWeb.svg" alt="Servicio brindado: Mantenimiento web, support hosting" /></figure>
                 <section className='serviciosInfo'>
                     <h2 className='serviciosInfo__titulo' data-aos-duration="800" data-aos="fade-right">Mantenimiento Web</h2>
                     <p className='serviciosInfo__parrafo' data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">

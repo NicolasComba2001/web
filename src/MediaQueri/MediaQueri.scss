@@ -1,5 +1,8 @@
 
 @media screen and (min-width: 720px){
+    .errorpageinfo__titulo{
+        width: 70%;
+    }
     .contenedorHome__nombre{
         font-size: 5em;
         line-height: 2;
@@ -79,6 +82,8 @@
 }
 
 @media screen and (min-width: 1024px){
+    .mensajeError{font-size: 3.5em;}
+    .errorpageinfo__titulo{font-size: 2em;}
     .menuAnclas__anclas{font-size: 3em;}
     .proyectoboton::before {
         width: 121%;
@@ -89,9 +94,17 @@
             align-items: center;
             flex-direction: column;
         }
+
 }
 
 @media screen and (min-width: 1280px){
+    .cartadescripcion__desc{
+        font-size: 1.2em;
+    }
+    .cartadescripcion__titulo{
+        font-size: 1.5em;
+    }
+    .proyectoimagen__img{object-fit: contain;}
     .proyectos{grid-template-columns: repeat(3,1fr);}
     .proyectotexto__titulo {
         font-size: 5em;
@@ -198,7 +211,7 @@
         flex-direction: row;
     }
     .contenedorHome__btn{
-        margin: 0;
+        margin: 0 auto;
     }
     .proyectoboton::before {
         width: 121%;

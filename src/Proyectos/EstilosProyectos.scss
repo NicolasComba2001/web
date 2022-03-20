@@ -55,6 +55,10 @@
     background-color: cadetblue;
     color: #000;
     -webkit-animation: unset;
+    &:hover
+        {
+        box-shadow: 0 0 3px 4px black;
+    }
 }
 
 .proyectoimagen{

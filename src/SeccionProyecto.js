@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Cardproyecto from './Proyectos/Cardproyecto';
 import './Proyectos/EstilosProyectos.scss';
 
-export default function SeccionProyecto(){
+export default function SeccionProyecto({children}){
     return(
         <section className='seccionProyectos'>
             <section id='proyectos' className='proyectoinicio'>
@@ -49,21 +49,21 @@ export default function SeccionProyecto(){
                         img={"./ProyectosPersonales/UTN-pagina.png"}
                         desc={"UTN - CLONE, se clono la pagina de la universidad tecnologica nacional para otorgarle mejor funcionalidad y dinamismo."}
                         alt={"UTN - CLONE, se clono la pagina de la universidad tecnologica nacional para otorgarle mejor funcionalidad y dinamismo."}
-                        web={"https://nicolascomba2001.github.io/Gimnasio/"}
+                        web={"/Proyectos"}
                     ></Cardproyecto>
                     <Cardproyecto
                         titulo="Publicidad emprendimientos"
                         img={"./ProyectosPersonales/publicidad-emprendimientos.png"}
                         desc={"Pagina web con el fin de aumentar las visitas y las ventas de micro-emprendimientos en la epoca COVID-19 año 2020."}
                         alt={"Pagina web con el fin de aumentar las visitas y las ventas de micro-emprendimientos en la epoca COVID-19 año 2020."}
-                        web={"https://nicolascomba2001.github.io/Gimnasio/"}
+                        web={"/Proyectos"}
                     ></Cardproyecto>
                     <Cardproyecto
                         titulo="Venta tickets"
                         img={"./ProyectosPersonales/entradas-cena-baile.png"}
                         desc={"Estacion Luxardo cuenta con uno de los mejores eventos en el año para nuestra comunidad bailarina. Compra tu ticket y reserva tu asiento."}
                         alt={"Estacion Luxardo cuenta con uno de los mejores eventos en el año para nuestra comunidad bailarina. Compra tu ticket y reserva tu asiento."}
-                        web={"https://nicolascomba2001.github.io/Gimnasio/"}
+                        web={"/Proyectos"}
                     ></Cardproyecto>
                     </section>
                   
@@ -79,6 +79,7 @@ export default function SeccionProyecto(){
                 <span className='proyectoboton__btn'>EMPEZAR</span>
             </a>
             </section>
+           {children}
         </section>
     );
 }

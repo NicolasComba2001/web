@@ -9,7 +9,7 @@ export default function Infoweb({titulo, descripcion, lista, imagen, alt, clase}
                 <p className='webinfo__parrafo'>{descripcion}</p>
                 {lista}
             </article>
-            <figure className='webimagen'><img className='webimagen__img' src={imagen} alt={alt}/></figure>
+            <figure className='webimagen'><img loading='lazy' className='webimagen__img' src={imagen} alt={alt}/></figure>
         </section>
     );
 }

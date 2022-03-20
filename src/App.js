@@ -17,11 +17,12 @@ function App() {
     <>
     <Routes>
       {/*Pagina principal*/}
-      <Route path="/" element={<SeccionHome></SeccionHome>}></Route>
-      <Route path='/Proyectos' element={<SeccionProyecto></SeccionProyecto>}></Route>
+      <Route path="/" element={<SeccionHome><PiePagina></PiePagina></SeccionHome>}></Route>
+      <Route path='/Proyectos' element={<SeccionProyecto><PiePagina></PiePagina></SeccionProyecto>}></Route>
+      
       <Route path='*' element={<Error404></Error404>}></Route>
     </Routes>
-    <PiePagina></PiePagina>
+    
     </>
   );
 }
