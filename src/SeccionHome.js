@@ -16,6 +16,8 @@ export default function SeccionHome({children}){
             <TituloHome></TituloHome>
             {/* Servicios */}
             <Servicios></Servicios>
+            {/* PLANES DE DESARROLLO */}
+            <PlanesDesarrollo></PlanesDesarrollo>
             {/* INFO DE LA WEB */}
             <Infoweb
             imagen={'./Imagenesinfoweb/DesarrolloWebprofesional.jpg'}
@@ -44,8 +46,6 @@ export default function SeccionHome({children}){
             alt={"Nos enfocamos en la fluides del sitio web, la optimización de su contenido y que el usuario tenga la mejor experiencia mientras navega por el sitio web."}
             descripcion={"Nos enfocamos en la fluides del sitio web, la optimización de su contenido y que el usuario tenga la mejor experiencia mientras navega por el sitio web."}
             ></Infoweb>
-            {/* PLANES DE DESARROLLO */}
-            <PlanesDesarrollo></PlanesDesarrollo>
         {children}
         </section>
     );
