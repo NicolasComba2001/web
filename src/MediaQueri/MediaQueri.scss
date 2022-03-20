@@ -98,14 +98,37 @@
 }
 
 @media screen and (min-width: 1280px){
+    .contenedorMenu{
+        width: 100%;
+    }
+    .contenedorIconoMenu {width: 50%;}
+    .iconoMenu{display: none;}
+    .menuAnclas__anclas{font-size: 1.4em;}
+    .menuAnclas__anclas:before{
+        font-size: .60em;
+    }
+    .contenedorAnclas, .menuItems{
+        width: 100%;
+        background-color: unset;
+        height: unset;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: static;
+        transform: unset;
+        -webkit-transform: unset;
+        -moz-transform: unset;
+        -ms-transform: unset;
+        -o-transform: unset;
+}
     .eligetuplan{
         display: block;
         width: 30%;
         height: 200px;
             &__img{
-                width: 100%;
-                object-fit: cover;
                 height: 100%;
+                object-fit: cover;
+                width: 100%;
             }
     }
     .cartadescripcion__desc{
