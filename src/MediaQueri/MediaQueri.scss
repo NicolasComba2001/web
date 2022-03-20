@@ -110,9 +110,9 @@
     .contenedorIconoMenu {width: 50%;}
     .iconoMenu{display: none;}
     .menuAnclas__anclas{font-size: 1.4em;
-        border: 2px solid transparent;
+        border-bottom: 2px solid transparent;
     &:hover{
-        border: 2px solid orangered;
+        border-bottom: 2px solid orangered;
     }}
     .menuAnclas__anclas:before{
         font-size: .9em;

@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../Proyectos/Estiloscard.scss';
 export default function Cardproyecto({img, alt, web, desc,titulo}){
     return(
         <section className='card' data-aos="zoom-in-down" data-aos-duration="1000">
             <article className='cartaproyecto'>
-                        <a href={web} target="_blank" rel='noreferrer'>
+                        <Link to={web} target="_blank" rel='noreferrer'>
                         <figure className='cartaimagen'><img loading='lazy' className='cartaimagen__img' src={img} alt={alt} /></figure>
-                        </a>
+                        </Link>
                         <div className='cartabotones'>
-                                <a className='cartabotones__btn' href={web}>Sitio web</a>
+                                <Link className='cartabotones__btn' to={web}>Sitio web</Link>
                         </div>
                         <section className='cartatexto'>
                             <article className='cartadescripcion'>

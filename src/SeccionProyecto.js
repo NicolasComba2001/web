@@ -49,21 +49,21 @@ export default function SeccionProyecto({children}){
                         img={"./ProyectosPersonales/utn_pagina.jpg"}
                         desc={"UTN - CLONE, se clono la pagina de la universidad tecnologica nacional para otorgarle mejor funcionalidad y dinamismo."}
                         alt={"UTN - CLONE, se clono la pagina de la universidad tecnologica nacional para otorgarle mejor funcionalidad y dinamismo."}
-                        web={"/*"}
+                        web={"*"}
                     ></Cardproyecto>
                     <Cardproyecto
-                        titulo="Publicidad emprendimientos"
-                        img={"./ProyectosPersonales/publicidad_emprendim_uLg2o.jpg"}
-                        desc={"Pagina web con el fin de aumentar las visitas y las ventas de micro-emprendimientos en la epoca COVID-19 año 2020."}
-                        alt={"Pagina web con el fin de aumentar las visitas y las ventas de micro-emprendimientos en la epoca COVID-19 año 2020."}
-                        web={"/*"}
+                        titulo="Tienda de ropa"
+                        img={"./ProyectosPersonales/tiendaderopa.jpg"}
+                        desc={"Pagina web con el fin de aumentar las visitas y las ventas de una tienda de ropa, en la epoca COVID-19 año 2020."}
+                        alt={"Pagina web con el fin de aumentar las visitas y las ventas de una tienda de ropa, en la epoca COVID-19 año 2020."}
+                        web={"*"}
                     ></Cardproyecto>
                     <Cardproyecto
                         titulo="Venta tickets"
                         img={"./ProyectosPersonales/entradas_cena_baile.jpg"}
                         desc={"Estacion Luxardo cuenta con uno de los mejores eventos en el año para nuestra comunidad bailarina. Compra tu ticket y reserva tu asiento."}
                         alt={"Estacion Luxardo cuenta con uno de los mejores eventos en el año para nuestra comunidad bailarina. Compra tu ticket y reserva tu asiento."}
-                        web={"/*"}
+                        web={"*"}
                     ></Cardproyecto>
                     </section>
                   
