@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import './EstilosError404/EstilosError.scss';
-import './MediaQueri/MediaQueri.scss';
 export default function Error404(){
     return(
         <>
