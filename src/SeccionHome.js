@@ -4,7 +4,7 @@ import TituloHome from './SeccionPrincipal/textohome/TituloHome';
 import Servicios from './SeccionPrincipal/servicios/Servicios';
 import Infoweb from './SeccionInfoWeb/Infoweb';
 import PlanesDesarrollo from './SeccionPlanes/PlanesDesarrollo';
-
+import './MediaQueri/MediaQueri.scss';
 
 
 export default function SeccionHome({children}){

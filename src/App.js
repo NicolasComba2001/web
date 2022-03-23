@@ -4,7 +4,6 @@ import { Routes, Route } from "react-router-dom";
 // import SeccionProyecto from './SeccionProyecto';
 import PiePagina from './PiePagina/PiePagina';
 import Error404 from './Error404';
-import './MediaQueri/MediaQueri.scss';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import React from 'react';
@@ -13,11 +12,11 @@ import LoaderSecciones from './LoaderSecciones';
 
 
 
+
 AOS.init();
 
 const SeccionProyecto= React.lazy(()=> import('./SeccionProyecto'));
 const SeccionHome= React.lazy(()=> import('./SeccionHome'));
-
 function App() {
   return (
     <>

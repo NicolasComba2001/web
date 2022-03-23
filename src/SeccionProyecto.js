@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Cardproyecto from './Proyectos/Cardproyecto';
 import './Proyectos/EstilosProyectos.scss';
+import './MediaQueri/MediaQueri.scss';
 
 export default function SeccionProyecto({children}){
     return(
