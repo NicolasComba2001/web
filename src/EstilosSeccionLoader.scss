@@ -1,0 +1,40 @@
+.loaderSeccion{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.795);
+    flex-direction: column;
+    &__img{
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+    }
+}
+.tituloSeccion{
+    
+    margin-top: 20px;
+}
+.tituloSeccion__titulo{
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+}
+.tituloSeccion__sub{
+    font-size: .8em;
+    font-weight: 300;
+    color: white;
+}
+.tipado{
+            width: 4ch;
+            animation: tipado 2s  steps(4) infinite;
+            -webkit-animation: tipado 2s  steps(4) infinite;
+            overflow: hidden;
+            display: inline-flex;
+            white-space: nowrap;
+}
+@keyframes tipado {
+    from {width: 0;}
+}
