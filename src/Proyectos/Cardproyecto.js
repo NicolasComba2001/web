@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {animateScroll as scroll} from 'react-scroll'
 import '../Proyectos/Estiloscard.scss';
 export default function Cardproyecto({img, alt, web, desc,titulo}){
