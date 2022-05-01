@@ -50,21 +50,25 @@ export default function SeccionProyecto({children}){
                         img={"./ProyectosPersonales/utn_pagina.jpg"}
                         desc={"UTN - CLONE, se clono la pagina de la universidad tecnologica nacional para otorgarle mejor funcionalidad y dinamismo."}
                         alt={"UTN - CLONE, se clono la pagina de la universidad tecnologica nacional para otorgarle mejor funcionalidad y dinamismo."}
-                        web={"*"}
                     ></Cardproyecto>
                     <Cardproyecto
                         titulo="Tienda de ropa"
                         img={"./ProyectosPersonales/tiendaderopa.jpg"}
                         desc={"Pagina web con el fin de aumentar las visitas y las ventas de una tienda de ropa, en la epoca COVID-19 año 2020."}
                         alt={"Pagina web con el fin de aumentar las visitas y las ventas de una tienda de ropa, en la epoca COVID-19 año 2020."}
-                        web={"*"}
                     ></Cardproyecto>
                     <Cardproyecto
                         titulo="Venta tickets"
                         img={"./ProyectosPersonales/entradas_cena_baile.jpg"}
                         desc={"Estacion Luxardo cuenta con uno de los mejores eventos en el año para nuestra comunidad bailarina. Compra tu ticket y reserva tu asiento."}
                         alt={"Estacion Luxardo cuenta con uno de los mejores eventos en el año para nuestra comunidad bailarina. Compra tu ticket y reserva tu asiento."}
-                        web={"*"}
+                    ></Cardproyecto>
+                    <Cardproyecto
+                        titulo="Corralon Racca"
+                        img={"./ProyectosPersonales/corralonracca.png"}
+                        desc={"Reutilizacion del sitio web 'Corralon Racca' con el fin de adaptarlo con un diseño moderno y optimizado para dispositivos moviles."}
+                        alt={"Reutilizacion del sitio web 'Corralon Racca' con el fin de adaptarlo con un diseño moderno y optimizado para dispositivos moviles."}
+                        web={"https://nicolascomba2001.github.io/CorralonRacca/"}
                     ></Cardproyecto>
                     </section>
                   

@@ -1,15 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {animateScroll as scroll} from 'react-scroll'
 import '../Proyectos/Estiloscard.scss';
 export default function Cardproyecto({img, alt, web, desc,titulo}){
+    useEffect(()=>{
+        scroll.scrollToTop();
+    },[])
     return(
         <section className='card' data-aos="zoom-in-down" data-aos-duration="1000">
             <article className='cartaproyecto'>
-                        <Link to={web} target="_blank" rel='noreferrer'>
+                        <a href={web} target="_blank" rel='noreferrer'>
                         <figure className='cartaimagen'><img loading='lazy' className='cartaimagen__img' src={img} alt={alt} /></figure>
-                        </Link>
+                        </a>
                         <div className='cartabotones'>
-                                <Link className='cartabotones__btn' to={web}>Sitio web</Link>
+                                <a className='cartabotones__btn' href={web} target="_blank" rel='noreferrer'>Sitio web</a>
                         </div>
                         <section className='cartatexto'>
                             <article className='cartadescripcion'>
