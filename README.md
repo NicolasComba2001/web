@@ -1,3 +1,3 @@
-# EMPEZANDO CON Create React App
+# Proyectos personales con Create React App
 
-Pagina web creada con CREATE REACT APP con el fin de poner en practica todos los conceptos aprendidos a lo largo de mi camino como desarrollador frontEnd en React js. Este proyecto surgio de la idea de poder generar sitios webs unicos, con animaciones y utilidades de usuarios que lo requieran para publicitar su negocio, producto o algun otro tema. 
+Esta seccion de proyectos personales sera publicada en GITHUB con el fin de poder tener guardados en recuerdo todos mis proyectos e ir observando mi evolucion como desarrollador mientras aprendo diversas tecnologias del mundo frontEnd.
